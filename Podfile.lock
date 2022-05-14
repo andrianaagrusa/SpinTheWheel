@@ -1,0 +1,16 @@
+PODS:
+  - FortuneWheel (0.1.4)
+
+DEPENDENCIES:
+  - FortuneWheel
+
+SPEC REPOS:
+  trunk:
+    - FortuneWheel
+
+SPEC CHECKSUMS:
+  FortuneWheel: 190618707679bb0a0ed5ba2a60348ffc099ab6d4
+
+PODFILE CHECKSUM: e9928feae74ec8a4f3378dc77a95de54240d55a7
+
+COCOAPODS: 1.11.3

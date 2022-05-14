@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B521FAF8451849E2E6A57DE65FB60AE /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 6A770916AE1FD321641041BFF367FDF6 /* Assets */; };
+		0DE5E10214A58F797720D4F6D9C11D28 /* FortuneWheel-FortuneWheel in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B5563060FFAF2EA2CA84F8F2B62BC /* FortuneWheel-FortuneWheel */; };
+		22DE7C93C304275E63332AA407A1F1F3 /* FortuneWheel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B6B0316BEDDD884FB557E0EF510E49 /* FortuneWheel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2948A9773DE2C3A0880F3D57EAA2E670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		413E30429C5AA8413B22563F23DE1454 /* SpinWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D9C1AED4DEF678D596D5D8D3C5EF60 /* SpinWheelView.swift */; };
+		5010C873CFD2E5C164549CE00742593F /* SpinWheelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2397E7FBCB56448E12DC7DA136EE278C /* SpinWheelCell.swift */; };
+		85BE3A53804F0D10B241C01EB8B410F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8B00F3671FCD1B473E1F7A939833AF2B /* Pods-SpinTheWheel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4DBCF0AA2CCFDF3B0E00362D0BF5AF /* Pods-SpinTheWheel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E3D3811020BA8063F92D1D86152E0E /* FortuneWheelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA593317FFC3B794A39FB628A8A684D /* FortuneWheelViewModel.swift */; };
+		BC01337A666CEB287752F8FD55FE05E0 /* FortuneWheel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D2319E3E6957BAD6A50F079619FC71 /* FortuneWheel-dummy.m */; };
+		CBD228E2506752104557AF6D9BD1A431 /* Pods-SpinTheWheel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E4C4AE31FB319310B2B574C38F91C6 /* Pods-SpinTheWheel-dummy.m */; };
+		D18C92E56F8396C390E2B75B55441440 /* FortuneWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073466E9F73466EF4BF6AC4951C68068 /* FortuneWheel.swift */; };
+		E1FC2A83F3F5F43125B5636AD1B1D2A8 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 28F11DF8A3B42E81EDA589210B4F4D45 /* Classes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74AAC6AE08989F5C6B68D7CBE8FFEA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 951E74A640395325222A87D6F7AE5D91;
+			remoteInfo = FortuneWheel;
+		};
+		C086B063122A6B48FD15AB7029B0D264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79D071400DC0586294E64AE255BA5462;
+			remoteInfo = "FortuneWheel-FortuneWheel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E4C4AE31FB319310B2B574C38F91C6 /* Pods-SpinTheWheel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpinTheWheel-dummy.m"; sourceTree = "<group>"; };
+		073466E9F73466EF4BF6AC4951C68068 /* FortuneWheel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FortuneWheel.swift; path = Sources/FortuneWheel/FortuneWheel.swift; sourceTree = "<group>"; };
+		0F977F9EB4E9702A347648A322F64A27 /* Pods-SpinTheWheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpinTheWheel.debug.xcconfig"; sourceTree = "<group>"; };
+		14515488A17D860521146524A37548A3 /* FortuneWheel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FortuneWheel-prefix.pch"; sourceTree = "<group>"; };
+		1DE8EC08FA87EE9F662FC7CF0612F918 /* Pods-SpinTheWheel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpinTheWheel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2397E7FBCB56448E12DC7DA136EE278C /* SpinWheelCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelCell.swift; path = Sources/FortuneWheel/SpinWheel/SpinWheelCell.swift; sourceTree = "<group>"; };
+		23C99145ABBE9DDA8A1B81044869C32A /* Pods-SpinTheWheel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpinTheWheel.modulemap"; sourceTree = "<group>"; };
+		28F11DF8A3B42E81EDA589210B4F4D45 /* Classes */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes; path = FortuneWheel/Classes; sourceTree = "<group>"; };
+		4210EB5B479BEEE4256B30FC8F457830 /* ResourceBundle-FortuneWheel-FortuneWheel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FortuneWheel-FortuneWheel-Info.plist"; sourceTree = "<group>"; };
+		536A300C259F68EB3B8D78CA4AD23DD3 /* FortuneWheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FortuneWheel.debug.xcconfig; sourceTree = "<group>"; };
+		5B7827FE1792DAA19827AAA431132721 /* Pods-SpinTheWheel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpinTheWheel-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DA593317FFC3B794A39FB628A8A684D /* FortuneWheelViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FortuneWheelViewModel.swift; path = Sources/FortuneWheel/FortuneWheelViewModel.swift; sourceTree = "<group>"; };
+		6A770916AE1FD321641041BFF367FDF6 /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; name = Assets; path = FortuneWheel/Assets; sourceTree = "<group>"; };
+		6D4DBCF0AA2CCFDF3B0E00362D0BF5AF /* Pods-SpinTheWheel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpinTheWheel-umbrella.h"; sourceTree = "<group>"; };
+		72564A10841D6E8BAEC65ED3CE71FC08 /* FortuneWheel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FortuneWheel; path = FortuneWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73B6B0316BEDDD884FB557E0EF510E49 /* FortuneWheel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FortuneWheel-umbrella.h"; sourceTree = "<group>"; };
+		82AFFDFA8B85B6E8A04E1BA11F187454 /* Pods-SpinTheWheel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpinTheWheel-Info.plist"; sourceTree = "<group>"; };
+		88D9C1AED4DEF678D596D5D8D3C5EF60 /* SpinWheelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelView.swift; path = Sources/FortuneWheel/SpinWheel/SpinWheelView.swift; sourceTree = "<group>"; };
+		8BF7ACEE6612A6154E7D5A1C01B3DF58 /* FortuneWheel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FortuneWheel-Info.plist"; sourceTree = "<group>"; };
+		8D3B5563060FFAF2EA2CA84F8F2B62BC /* FortuneWheel-FortuneWheel */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FortuneWheel-FortuneWheel"; path = FortuneWheel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D2319E3E6957BAD6A50F079619FC71 /* FortuneWheel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FortuneWheel-dummy.m"; sourceTree = "<group>"; };
+		95BAAB08FA793023BFE9EE8C3321CDA2 /* FortuneWheel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FortuneWheel.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF9B6495B15FD9E4C44FE21D7141112 /* Pods-SpinTheWheel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpinTheWheel-frameworks.sh"; sourceTree = "<group>"; };
+		B3C213D6D7F3B7688A1EEE797F5D272A /* FortuneWheel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FortuneWheel.release.xcconfig; sourceTree = "<group>"; };
+		F1B1CAE9A341C3BCD5CAC2D79CD0E818 /* Pods-SpinTheWheel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpinTheWheel.release.xcconfig"; sourceTree = "<group>"; };
+		FA4FE121DD744F10871094020B27EDBC /* Pods-SpinTheWheel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SpinTheWheel"; path = Pods_SpinTheWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0367A6840E8332BC6D54ACE13E39A50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BE3A53804F0D10B241C01EB8B410F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691E520726B6AE86CFF392571562466C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2948A9773DE2C3A0880F3D57EAA2E670 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E3044FD3B827452E8F9A2A652C48921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		69C1D41AC37E868BECEB90C5326BD4E7 /* Pods-SpinTheWheel */ = {
+			isa = PBXGroup;
+			children = (
+				23C99145ABBE9DDA8A1B81044869C32A /* Pods-SpinTheWheel.modulemap */,
+				1DE8EC08FA87EE9F662FC7CF0612F918 /* Pods-SpinTheWheel-acknowledgements.markdown */,
+				5B7827FE1792DAA19827AAA431132721 /* Pods-SpinTheWheel-acknowledgements.plist */,
+				00E4C4AE31FB319310B2B574C38F91C6 /* Pods-SpinTheWheel-dummy.m */,
+				9EF9B6495B15FD9E4C44FE21D7141112 /* Pods-SpinTheWheel-frameworks.sh */,
+				82AFFDFA8B85B6E8A04E1BA11F187454 /* Pods-SpinTheWheel-Info.plist */,
+				6D4DBCF0AA2CCFDF3B0E00362D0BF5AF /* Pods-SpinTheWheel-umbrella.h */,
+				0F977F9EB4E9702A347648A322F64A27 /* Pods-SpinTheWheel.debug.xcconfig */,
+				F1B1CAE9A341C3BCD5CAC2D79CD0E818 /* Pods-SpinTheWheel.release.xcconfig */,
+			);
+			name = "Pods-SpinTheWheel";
+			path = "Target Support Files/Pods-SpinTheWheel";
+			sourceTree = "<group>";
+		};
+		7DEBC6E13F6BF73EC4139588FF23DC5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72564A10841D6E8BAEC65ED3CE71FC08 /* FortuneWheel */,
+				8D3B5563060FFAF2EA2CA84F8F2B62BC /* FortuneWheel-FortuneWheel */,
+				FA4FE121DD744F10871094020B27EDBC /* Pods-SpinTheWheel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBC0E9FDB0334EFE4A644037B1DDBB7E /* FortuneWheel */ = {
+			isa = PBXGroup;
+			children = (
+				073466E9F73466EF4BF6AC4951C68068 /* FortuneWheel.swift */,
+				5DA593317FFC3B794A39FB628A8A684D /* FortuneWheelViewModel.swift */,
+				2397E7FBCB56448E12DC7DA136EE278C /* SpinWheelCell.swift */,
+				88D9C1AED4DEF678D596D5D8D3C5EF60 /* SpinWheelView.swift */,
+				DD7805BF3213F7191A45D4D29D73B490 /* Resources */,
+				E546A48ACA4BAADF425E074B6162DBEC /* Support Files */,
+			);
+			name = FortuneWheel;
+			path = FortuneWheel;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E42812D44DE9BA369B44AA466238E528 /* Pods */,
+				7DEBC6E13F6BF73EC4139588FF23DC5C /* Products */,
+				D9C3B06E3AF648938E3CD0899326E924 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9C3B06E3AF648938E3CD0899326E924 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69C1D41AC37E868BECEB90C5326BD4E7 /* Pods-SpinTheWheel */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DD7805BF3213F7191A45D4D29D73B490 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A770916AE1FD321641041BFF367FDF6 /* Assets */,
+				28F11DF8A3B42E81EDA589210B4F4D45 /* Classes */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E42812D44DE9BA369B44AA466238E528 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBC0E9FDB0334EFE4A644037B1DDBB7E /* FortuneWheel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E546A48ACA4BAADF425E074B6162DBEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95BAAB08FA793023BFE9EE8C3321CDA2 /* FortuneWheel.modulemap */,
+				92D2319E3E6957BAD6A50F079619FC71 /* FortuneWheel-dummy.m */,
+				8BF7ACEE6612A6154E7D5A1C01B3DF58 /* FortuneWheel-Info.plist */,
+				14515488A17D860521146524A37548A3 /* FortuneWheel-prefix.pch */,
+				73B6B0316BEDDD884FB557E0EF510E49 /* FortuneWheel-umbrella.h */,
+				536A300C259F68EB3B8D78CA4AD23DD3 /* FortuneWheel.debug.xcconfig */,
+				B3C213D6D7F3B7688A1EEE797F5D272A /* FortuneWheel.release.xcconfig */,
+				4210EB5B479BEEE4256B30FC8F457830 /* ResourceBundle-FortuneWheel-FortuneWheel-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FortuneWheel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B0B7FD0929AB7D22DCD0FB72626A553 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DE7C93C304275E63332AA407A1F1F3 /* FortuneWheel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2888E6C642C4342B30C47022DC452B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B00F3671FCD1B473E1F7A939833AF2B /* Pods-SpinTheWheel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79D071400DC0586294E64AE255BA5462 /* FortuneWheel-FortuneWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A24C2E22292FE999568397BDBACFA9A /* Build configuration list for PBXNativeTarget "FortuneWheel-FortuneWheel" */;
+			buildPhases = (
+				2320E19F748A649AB0D7F00D025C39FE /* Sources */,
+				9E3044FD3B827452E8F9A2A652C48921 /* Frameworks */,
+				B4CE129A24EB60BA9634550AD9CBC261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FortuneWheel-FortuneWheel";
+			productName = FortuneWheel;
+			productReference = 8D3B5563060FFAF2EA2CA84F8F2B62BC /* FortuneWheel-FortuneWheel */;
+			productType = "com.apple.product-type.bundle";
+		};
+		951E74A640395325222A87D6F7AE5D91 /* FortuneWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3541788156CC3DF13ECD1B7F17698282 /* Build configuration list for PBXNativeTarget "FortuneWheel" */;
+			buildPhases = (
+				8B0B7FD0929AB7D22DCD0FB72626A553 /* Headers */,
+				38B20CC402431675C16641C8857918BC /* Sources */,
+				691E520726B6AE86CFF392571562466C /* Frameworks */,
+				020DA960D97D7D52310E429E04813467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A945F318B38A59B2CC7B230FC9D91C5D /* PBXTargetDependency */,
+			);
+			name = FortuneWheel;
+			productName = FortuneWheel;
+			productReference = 72564A10841D6E8BAEC65ED3CE71FC08 /* FortuneWheel */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADCE18835FC06619B852594DFD23493B /* Pods-SpinTheWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA7AE8A3F64ACB525E86612538D422C /* Build configuration list for PBXNativeTarget "Pods-SpinTheWheel" */;
+			buildPhases = (
+				AD2888E6C642C4342B30C47022DC452B /* Headers */,
+				01BEF6A8FD5480CA85E4F8BE3CBDD7F7 /* Sources */,
+				0367A6840E8332BC6D54ACE13E39A50F /* Frameworks */,
+				C767C9768D4AED404BA87B89B3B286BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1117C6337B063052B94B0629988BDADD /* PBXTargetDependency */,
+			);
+			name = "Pods-SpinTheWheel";
+			productName = Pods_SpinTheWheel;
+			productReference = FA4FE121DD744F10871094020B27EDBC /* Pods-SpinTheWheel */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7DEBC6E13F6BF73EC4139588FF23DC5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				951E74A640395325222A87D6F7AE5D91 /* FortuneWheel */,
+				79D071400DC0586294E64AE255BA5462 /* FortuneWheel-FortuneWheel */,
+				ADCE18835FC06619B852594DFD23493B /* Pods-SpinTheWheel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		020DA960D97D7D52310E429E04813467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE5E10214A58F797720D4F6D9C11D28 /* FortuneWheel-FortuneWheel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CE129A24EB60BA9634550AD9CBC261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B521FAF8451849E2E6A57DE65FB60AE /* Assets in Resources */,
+				E1FC2A83F3F5F43125B5636AD1B1D2A8 /* Classes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C767C9768D4AED404BA87B89B3B286BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01BEF6A8FD5480CA85E4F8BE3CBDD7F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD228E2506752104557AF6D9BD1A431 /* Pods-SpinTheWheel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2320E19F748A649AB0D7F00D025C39FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B20CC402431675C16641C8857918BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18C92E56F8396C390E2B75B55441440 /* FortuneWheel.swift in Sources */,
+				BC01337A666CEB287752F8FD55FE05E0 /* FortuneWheel-dummy.m in Sources */,
+				96E3D3811020BA8063F92D1D86152E0E /* FortuneWheelViewModel.swift in Sources */,
+				5010C873CFD2E5C164549CE00742593F /* SpinWheelCell.swift in Sources */,
+				413E30429C5AA8413B22563F23DE1454 /* SpinWheelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1117C6337B063052B94B0629988BDADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FortuneWheel;
+			target = 951E74A640395325222A87D6F7AE5D91 /* FortuneWheel */;
+			targetProxy = 74AAC6AE08989F5C6B68D7CBE8FFEA44 /* PBXContainerItemProxy */;
+		};
+		A945F318B38A59B2CC7B230FC9D91C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FortuneWheel-FortuneWheel";
+			target = 79D071400DC0586294E64AE255BA5462 /* FortuneWheel-FortuneWheel */;
+			targetProxy = C086B063122A6B48FD15AB7029B0D264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07DB587965E79A0037F13EC1500A281B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C213D6D7F3B7688A1EEE797F5D272A /* FortuneWheel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FortuneWheel/FortuneWheel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FortuneWheel/FortuneWheel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FortuneWheel/FortuneWheel.modulemap";
+				PRODUCT_MODULE_NAME = FortuneWheel;
+				PRODUCT_NAME = FortuneWheel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B3F405DA2F9999AE19BECF32F97EAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536A300C259F68EB3B8D78CA4AD23DD3 /* FortuneWheel.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FortuneWheel";
+				IBSC_MODULE = FortuneWheel;
+				INFOPLIST_FILE = "Target Support Files/FortuneWheel/ResourceBundle-FortuneWheel-FortuneWheel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = FortuneWheel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3EFB810A49E0F60C8B8C308DC246A491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F977F9EB4E9702A347648A322F64A27 /* Pods-SpinTheWheel.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpinTheWheel/Pods-SpinTheWheel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpinTheWheel/Pods-SpinTheWheel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B50A33B632DA4CEE6CD58A62A777CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B1CAE9A341C3BCD5CAC2D79CD0E818 /* Pods-SpinTheWheel.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpinTheWheel/Pods-SpinTheWheel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpinTheWheel/Pods-SpinTheWheel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C93E8775E75726CE56BCAAF77A8B036A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C213D6D7F3B7688A1EEE797F5D272A /* FortuneWheel.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FortuneWheel";
+				IBSC_MODULE = FortuneWheel;
+				INFOPLIST_FILE = "Target Support Files/FortuneWheel/ResourceBundle-FortuneWheel-FortuneWheel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = FortuneWheel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E01A52D0F19D3DF647E4B63B9CD4892C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536A300C259F68EB3B8D78CA4AD23DD3 /* FortuneWheel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FortuneWheel/FortuneWheel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FortuneWheel/FortuneWheel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FortuneWheel/FortuneWheel.modulemap";
+				PRODUCT_MODULE_NAME = FortuneWheel;
+				PRODUCT_NAME = FortuneWheel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3541788156CC3DF13ECD1B7F17698282 /* Build configuration list for PBXNativeTarget "FortuneWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01A52D0F19D3DF647E4B63B9CD4892C /* Debug */,
+				07DB587965E79A0037F13EC1500A281B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A24C2E22292FE999568397BDBACFA9A /* Build configuration list for PBXNativeTarget "FortuneWheel-FortuneWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3F405DA2F9999AE19BECF32F97EAB8 /* Debug */,
+				C93E8775E75726CE56BCAAF77A8B036A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA7AE8A3F64ACB525E86612538D422C /* Build configuration list for PBXNativeTarget "Pods-SpinTheWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EFB810A49E0F60C8B8C308DC246A491 /* Debug */,
+				5B50A33B632DA4CEE6CD58A62A777CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
