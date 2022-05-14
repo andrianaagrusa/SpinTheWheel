@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 import Combine
 
+// class that contains all of the wheels in one object
 class WheelStore : ObservableObject {
     @Published var wheels: [Wheel]
     

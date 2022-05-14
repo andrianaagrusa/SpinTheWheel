@@ -11,6 +11,7 @@ import SwiftUI
 import FortuneWheel
 import Foundation.NSString
 
+// View that displays the wheel
 struct WheelView: View {
     
     let selectedWheel: Wheel
@@ -19,6 +20,7 @@ struct WheelView: View {
 
     var body: some View {
         
+        // Wheel name on top of the wheel
         VStack {
             Text(selectedWheel.name)
                 .font(.title)

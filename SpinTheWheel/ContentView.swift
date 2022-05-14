@@ -9,11 +9,13 @@ import SwiftUI
 import FortuneWheel
 import CoreGraphics
 
+// Main view of the app
 struct ContentView: View {
     @StateObject var wheelStore : WheelStore = WheelStore(wheels: wheelData)
     @State var spinCount = 0
     
     var body: some View {
+        // Welcome page
         TabView {
             VStack {
                 Text("Welcome to Spin the Wheel!")
@@ -33,7 +35,7 @@ struct ContentView: View {
                 Image(systemName: "info")
             }
             
-            
+            // View of all the Wheels in a list
             NavigationView {
                 List {
                     ForEach (wheelStore.wheels) { wheel in

@@ -7,12 +7,14 @@
 
 import SwiftUI
 
+// View that allows user to add a new wheel
 struct AddNewWheel: View {
     @StateObject var wheelStore : WheelStore
     @State private var name: String = ""
     @State private var players: String = ""
     
     var body: some View {
+        // Where the user inputs the data
         Form {
             Section(header: Text("Create New Wheel")) {
                 DataInput(title: "Name for this Wheel: ", userInput: $name)
@@ -27,6 +29,7 @@ struct AddNewWheel: View {
         }
     }
     
+    // function to add the new wheel to the store of wheels
     func addNewWheel() {
         let newWheel = Wheel(id: UUID().uuidString,
                              name: name, players: players)
@@ -40,6 +43,7 @@ struct AddNewWheel_Previews: PreviewProvider {
     }
 }
 
+// struct for the process of user input
 struct DataInput: View {
     var title: String
     @Binding var userInput: String
